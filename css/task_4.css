@@ -1,0 +1,156 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+img{
+	width: 100%;
+	height: 595px;
+}
+
+#list1{
+	background-color: #0B151A;
+	padding: 10px;
+	text-align: right;
+}
+
+#logo{
+	display: inline;
+	text-align: left;
+	color: #3FDDF3;
+	font-size: 38px;
+	word-spacing: 13px;
+	margin-right: 95px;
+	text-shadow: 1px 1px red;
+	font-weight: 670;
+}
+
+.head{
+	display: inline;
+	font-size: 20px;
+	padding: 12px;
+	color: #46C32C;
+	text-decoration: none;
+	margin-right: 25px;
+}
+.head:hover{
+	cursor: pointer;
+	background-color: #24565A;
+	color: #01F417;
+	font-weight: 590;
+	font-size: 22px; 
+	font-family: 'Playball', cursive;
+}
+.course{
+	display: inline;
+	margin: 10px;
+}
+
+#list2{
+	display: none;
+}
+.head:hover #list2{
+	display: block;
+	position: absolute;
+	font-family: none;
+	font-size: 20px;
+	font-weight: 300;
+	margin-left: 345px;
+	margin-top: 22px;
+}
+.course{
+	background-color:#166F2E;
+	color: yellow;
+	padding: 10px;
+	border-radius: 20px;
+}
+.task{
+	display: none;
+}
+
+.course:hover{
+	color: #E2E526;
+	background-color: #022E6F;
+	font-size: 22px;
+}
+
+.course:hover .task{
+	display: block;
+	position: absolute;
+}
+
+
+
+.display1{
+	text-align: center;
+	display: block;
+	background-color: #07430B;
+	width: 8em;
+	word-spacing: 10px;
+	padding: 5px;
+	border-radius: 15px;
+	margin-left: 28px;
+	margin-top: 15px;
+	font-weight: 600;
+}
+.display2{
+	text-align: center;
+	display: block;
+	background-color: #07430B;
+	width: 8em;
+	word-spacing: 10px;
+	padding: 5px;
+	border-radius: 15px;
+	margin-left: 250px;
+	margin-top: 15px;
+	font-weight: 600;
+}
+.display3{
+	text-align: center;
+	display: block;
+	background-color: #07430B;
+	width: 8em;
+	word-spacing: 10px;
+	padding: 5px;
+	border-radius: 15px;
+	margin-left: 430px;
+	margin-top: 15px;
+	font-weight: 600;
+}
+.display4{
+	text-align: center;
+	display: block;
+	background-color: #07430B;
+	color: #F4D03F;
+	width: 8em;
+	word-spacing: 10px;
+	padding: 5px;
+	border-radius: 15px;
+	margin-left: 550px;
+	margin-top: 15px;
+	font-weight: 600;
+}
+.display1:hover {
+	background-color: #78EA19;
+	color: #F70D02;
+	font-size: 24px;
+	font-weight: 700;
+}
+.display2:hover {
+	background-color: #78EA19;
+	color: #F70D02;
+	font-size: 24px;
+	font-weight: 700;
+}
+.display3:hover {
+	background-color: #78EA19;
+	color: #F70D02;
+	font-size: 24px;
+	font-weight: 700;
+}
+.display4:hover {
+	background-color: #78EA19;
+	color: #F70D02;
+	font-size: 24px;
+	font-weight: 700;
+}
